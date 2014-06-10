@@ -4,13 +4,27 @@
     <title>Angular Demo</title>
     <script type="text/javascript" src="js/lib/angular.js"></script>
     <script type="text/javascript" src="js/lib/angular-resource.js"></script>
+    <script type="text/javascript" src="js/controllers/app.js"></script>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/bootstrap-theme.css" />
 </head>
 <body>
-<!-- variable placeholder-->
-<h1>Welcome {{name}}!</h1>
-<!--  angularjs directive  -->
-<input type="" placeholder="type your name..." ng-model="name"/>
+<!--  give angular access to the controller & its objects  -->
+<div class="container" ng-controller="AppCtrl">
+    <h1>AngulAir</h1>
+
+    <!-- output airport object using directive -->
+    <ul ng-repeat="airport in airports">
+        <!-- airport variable -->
+        <li>{{airport.code}}</li>
+        <li>{{airport.city}}</li>
+        <li>{{airport.name}}</li>
+    </ul>
+
+</div>
+
+<ul>
+    <li ng-repeat="airport in airports">{{airport.code}}</li>
+</ul>
 </body>
 </html>
