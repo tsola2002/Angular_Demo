@@ -36,4 +36,11 @@ function AppCtrl ($scope) {
             ]
         }
     };
+
+    $scope.currentAirport = null;
+
+    /*function to lookup airport code info inorder to display the record*/
+    $scope.setAirport = function (code) {
+        $scope.currentAirport = $scope.airports[code];
+    };
 }
