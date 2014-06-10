@@ -36,7 +36,8 @@ function AppCtrl ($scope) {
             ]
         }
     };
-
+    /*url for use as partial*/
+    $scope.sidebarURL = 'partial/airport.html';
     $scope.currentAirport = null;
 
     /*function to lookup airport code info inorder to display the record*/

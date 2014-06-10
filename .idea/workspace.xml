@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="633e852c-e322-4379-80a4-25ce1b25ce4d" name="Default" comment="supplying &amp; accessing variable scope">
+    <list default="true" id="633e852c-e322-4379-80a4-25ce1b25ce4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partial/airport.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/app.js" afterPath="$PROJECT_DIR$/js/controllers/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -30,7 +31,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="6" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="884">
+            <state line="47" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="901">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,7 +42,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.8162252" vertical-offset="0" max-vertical-offset="629">
+            <state line="24" column="55" selection-start="923" selection-end="923" vertical-scroll-proportion="0.5910596" vertical-offset="51" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="airport.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partial/airport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="6" selection-start="231" selection-end="231" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -70,6 +80,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/partial/airport.html" />
         <option value="$PROJECT_DIR$/js/controllers/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -124,38 +135,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Angular_Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular_Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular_Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular_Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angular_Demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +254,11 @@
       <created>1402390914556</created>
       <updated>1402390914556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="controlling scope functions and display">
+      <created>1402392888960</created>
+      <updated>1402392888960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -312,7 +295,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="supplying &amp; accessing variable scope" />
-    <option name="LAST_COMMIT_MESSAGE" value="supplying &amp; accessing variable scope" />
+    <MESSAGE value="controlling scope functions and display" />
+    <option name="LAST_COMMIT_MESSAGE" value="controlling scope functions and display" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -344,9 +328,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/partial/airport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="231" selection-end="231" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="6" selection-start="1190" selection-end="1190" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="884">
+        <state line="47" column="0" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="203" max-vertical-offset="901">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -355,7 +346,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.8162252" vertical-offset="0" max-vertical-offset="629">
+        <state line="24" column="55" selection-start="923" selection-end="923" vertical-scroll-proportion="0.5910596" vertical-offset="51" max-vertical-offset="731">
           <folding />
         </state>
       </provider>

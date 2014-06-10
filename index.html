@@ -11,19 +11,25 @@
 <body>
 <!--  give angular access to the controller & its objects  -->
 <div class="container" ng-controller="AppCtrl">
-    <h1>AngulAir</h1>
+    <div class="row">
+        <div class="col col-lg-6">
+            <h1>AngulAir</h1>
+            <ul>
+                <li ng-repeat="airport in airports">
+                    <a href="" ng-click="setAirport(airport.code)">{{airport.code}} - {{airport.city}}</a>
+                </li>
+            </ul>
 
-    <div class="container" ng-controller="AppCtrl">
-        <h1>AngulAir</h1>
-        <ul>
-            <li ng-repeat="airport in airports">
-                <a href="" ng-click="setAirport(airport.code)">{{airport.code}} - {{airport.city}}</a>
-            </li>
-        </ul>
 
-        <!--  show object based on whether it is null or not  -->
-        <p ng-show="currentAirport">Current airport: {{currentAirport.name}}</p>
+        </div>
+        <!--  using ng-include to include partial files  -->
+        <div class="col col-lg-6" ng-include src="sidebarURL">
+            <!--  using ng-include inline tag  -->
+            <ng-include class="span5" src="sidebarURL"></ng-include>
+        </div>
     </div>
+
+    
 
 </div>
 
